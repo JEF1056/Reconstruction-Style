@@ -23,7 +23,7 @@ python src/main.py fast \
 
 ### Evaluating the saved model on images
 ```
-!python src/main.py test \
+python src/main.py test \
     --content-image [Path to content image] \
     --output-image [Path to output image] \
     --model [Location of model created when adapting a new style] \
