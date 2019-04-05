@@ -11,7 +11,7 @@ And install the requirements through pip: `pip install -r requirements.txt`
 python src/main.py fast \
     --content-dataset [Path to COCO Dataset] \
     --style-image [Path to style image] \
-    --model [Pathe to RCStyle.pth] \
+    --model [Path to RCStyle.pth] \
     --save-model-dir [Path to save location] \
     --style-weight [Anything between 1e5 to 2.75e5 usually works, as long as loss is ~3.5] \
     --style-size [Set to style image height] \
