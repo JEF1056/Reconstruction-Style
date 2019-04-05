@@ -5,6 +5,8 @@ Reconstruction Style is a methodology involving the encoding of an image into te
 ### Adapting a new style
 By using the pretrained reconstruction network, adapting a new style usually takes around 30 seconds on a Titain X with 200 iterations. On the same machine, arbitrary fast style transfer takes about 8 hours to produce similar results.
 
+***THIS DOES NOT WORK ON WINDOWS (yet), due to issues with python on windows not being able to pickle lambadas for multithreading***
+
 As a prerequisite, download and extract the [COCO Dataset](http://images.cocodataset.org/zips/train2017.zip)<br>
 And install the requirements through pip: `pip install -r requirements.txt`
 ```
