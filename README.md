@@ -48,7 +48,7 @@ Note: Original colors requires that the content video and the output video be th
 `Demonstration/Comparison images will be uploaded soon`
 
 ### Training a new reconstruction network
-The pretrained model was trained on the default parameters, and used the [COCO Dataset](http://images.cocodataset.org/zips/train2017.zip) for content images, and [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data).
+The pretrained model was trained on the default parameters, and used the [COCO Dataset](http://images.cocodataset.org/zips/train2017.zip) for content images, and [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data) for style images.
 ```
 python src/main.py train \
     --content-dataset [Path to COCO Dataset] \
